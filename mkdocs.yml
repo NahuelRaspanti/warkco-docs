@@ -13,6 +13,7 @@ nav:
   - Getting Started: getting-started.md
   - Facturación:
       - Crear factura: facturas/crear-factura.md
+      - Enviar factura: facturas/enviar-factura.md
 
 markdown_extensions:
   - admonition
