@@ -1,9 +1,18 @@
-site_name: My Documentation
+site_name: Warkco docs
 theme:
   name: material
+  language: es
+  logo: assets/warkco-icon.png
+  favicon: assets/warkco-icon.png
+  features:
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Facturación:
+      - Crear factura: facturas/crear-factura.md
 
 markdown_extensions:
   - admonition
