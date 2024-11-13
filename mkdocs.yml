@@ -1,0 +1,12 @@
+site_name: My Documentation
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
